@@ -43,3 +43,18 @@ float: right;
 #border{
     border: 5px solid blue;
 }
+h3{
+    text-align: center;
+    color: blue;
+    text-decoration: underline 4px solid blue;
+}
+.navigation{
+display: flex;
+margin: 10px 0px 0px 20px;
+padding: 20px 30px 20px 30px;
+justify-content: space-between;
+}
+h4{
+    color: blue;
+    text-align: center;
+}
