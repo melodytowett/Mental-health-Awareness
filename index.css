@@ -13,6 +13,9 @@
 .navbar nav{
 float: right;
 }
+nav>ul>li{
+    margin-right: 200px;
+}
 .navbar>nav>ul>li>a{
     padding: 5px;
     margin: 0px 20px 0px 20px;
@@ -21,10 +24,15 @@ float: right;
     height: 50px;
     width: 200px;
     background-color: grey;
+    align-items: center;
+    
 }
-.navbar>nav>ul>li>a>#sign{
+.navbar #sign{
     border: none;
-    text-decoration: underline blue;
+    text-decoration: underline 3px blue;
+    float: right;
+    top: -70px;
+    margin-right: 40px;
 }
 .column-1{
     display: flex;
@@ -88,4 +96,20 @@ h4{
 }
 table td{
     border: 1px solid black;
+    padding: 10px;
+}
+#sub{
+    background-color: yellow;
+    color:black;
+}
+button{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+footer{
+    background-color: blue;
+    color: white;
+    line-height: 30px;
+    text-align: center;
 }
